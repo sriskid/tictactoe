@@ -39,6 +39,7 @@ class MyGame(arcade.Window):
         # arcade.finish_render()  
 
     def set_up(self):
+        """CREATE LIST SHAPE"""
         self.shape_list = []
 
     def mouse_snap(self, x, y):
