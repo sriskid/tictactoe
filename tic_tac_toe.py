@@ -19,18 +19,18 @@ class MyGame(arcade.Window):
         """CREATING THE GRID LAYOUT"""
         arcade.start_render()
         horizontal_point_list = [
-        [100,125], [500,125],
-        [100,275], [500,275],
-        [100,425], [500,425],
-        [100,575], [500,575]
-    ]
+            [100,125], [500,125],
+            [100,275], [500,275],
+            [100,425], [500,425],
+            [100,575], [500,575]
+        ]
 
         vertical_point_list = [
-        [100,125], [100,575],
-        [233,125], [233,575],
-        [366,125], [366,575],
-        [500,125], [500,575]
-    ]
+            [100,125], [100,575],
+            [233,125], [233,575],
+            [366,125], [366,575],
+            [500,125], [500,575]
+        ]
 
         arcade.create_lines(horizontal_point_list, arcade.color.GREEN).draw()
         arcade.create_lines(vertical_point_list, arcade.color.GREEN).draw()
